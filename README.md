@@ -1,16 +1,30 @@
-# React + Vite
+# Media Search Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic frontend React application designed to search, discover, and collect beautiful photos, videos, and GIFs from top-tier APIs of Unsplash, Pexels, and Giphy.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Multi-Source Search**: Easily toggle between searching for Photos (Unsplash), Videos (Pexels), and GIFs (Giphy).
+- **Responsive Media Grid**: A beautifully laid out grid for displaying search results gracefully across devices.
+- **Save to Collection**: Add your favorite media items to a personal "Collection" to easily find them later.
+- **State Management**: Built with Redux Toolkit for robust, scalable state handling for search queries, tabs, and saved collections.
+- **Modern Styling**: Styled entirely with Tailwind CSS for a sleek, responsive, and modern user interface.
+- **Toast Notifications**: Interactive feedback and alerts using `react-toastify`.
+- **Fast Development**: Powered by Vite for lightning-fast HMR and build performance.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework**: React 19 (via Vite)
+- **State Management**: Redux Toolkit & React-Redux
+- **Routing**: React Router DOM
+- **Styling**: Tailwind CSS v4
+- **API Fetching**: Axios
+- **Notifications**: React Toastify
 
-## Expanding the ESLint configuration
+## 📦 API Integrations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project integrates with three powerful media APIs:
+
+1. **Unsplash API** (for fetching high-quality photos)
+2. **Pexels API** (for fetching free stock videos)
+3. **Giphy API** (for fetching engaging GIFs)
